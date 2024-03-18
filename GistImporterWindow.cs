@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace GistImporter
 {
+        [InitializeOnLoad]
     public class GistImporterWindow : EditorWindow
     {
         string gistUrl = string.Empty;
