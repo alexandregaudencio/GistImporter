@@ -16,7 +16,6 @@ namespace GistImporter
         //static readonly Regex _getDescriptionRegex = new Regex(@"\<title\>(?<description>.+)\</title\>", RegexOptions.IgnoreCase | RegexOptions.Compiled);
         static readonly Regex _getFileUrlRegex = new Regex("href=\"(?<url>.+/raw/[a-z0-9\\./\\-]+)\"", RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
-        [MenuItem("Tools/Import Gist")]
         public static void ImportGist(string url, string folder = "")
         {
 
