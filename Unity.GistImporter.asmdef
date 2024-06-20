@@ -1,3 +1,7 @@
 {
 	"name": "GistImporter"
+,
+	"includePlatforms": [
+		"Editor"
+	]
 }
